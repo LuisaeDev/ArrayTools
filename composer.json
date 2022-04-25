@@ -1,7 +1,7 @@
 {
     "name": "luisaedev/array-tools",
     "description": "Useful class to handle complex array values",
-    "license": "MIT License",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "LuisaeDev\\ArrayTools\\": "src/"
