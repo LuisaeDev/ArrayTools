@@ -1,0 +1,17 @@
+{
+    "name": "luisaedev/array-tools",
+    "description": "Useful class to handle complex array values",
+    "license": "MIT License",
+    "autoload": {
+        "psr-4": {
+            "LuisaeDev\\ArrayTools\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luis Aguilar",
+            "email": "dev@luisae.com"
+        }
+    ],
+    "require": {}
+}
