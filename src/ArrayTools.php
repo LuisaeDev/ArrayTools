@@ -3,7 +3,7 @@
 namespace LuisaeDev\ArrayTools;
 
 /**
- * Useful collection of  to handle complex array values.
+ * Useful collection of to handle complex array values.
  */
 class ArrayTools
 {
@@ -31,7 +31,7 @@ class ArrayTools
 	 *
 	 * @return array
 	 */
-	public static function objectToArray($object)
+	public static function objectToArray(array $object)
     {
 		if (!is_object($object) && !is_array($object)) {
 			return $object;
@@ -49,7 +49,7 @@ class ArrayTools
      * If the clousure returns a null value, the current node and its nested nodes will be excluded from the original array.
      *
      * @param array    $array Array to walk
-     * @param function $cb    Clousure to call at each iteration
+     * @param callable $cb    Clousure to call at each iteration
      * @param array    $path  Reserved argument, set the nested path corresponding to the current node
      *
      * @return array Array altered
@@ -96,7 +96,7 @@ class ArrayTools
      * 
      * @param array    $array Array to walk
      * @param array    $path  Path to follow, each position in this array represents an index corresponding as a sequential way for walk the array
-     * @param function $cb    Clousure to call at each iteration
+     * @param callable $cb    Clousure to call at each iteration
      * @param int      $step  Reserved argument, set the current step corresponding to the nested path
      * 
      * @return array Array altered
